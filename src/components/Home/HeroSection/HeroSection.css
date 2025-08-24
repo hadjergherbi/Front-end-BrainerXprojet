@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+   
+} 
+.paragraphs{
+    padding-left: 80px;
+}
+.BigTitle{
+font-family: 'Manrope',sans-serif;
+font-weight: 800;
+font-size: 52px;
+line-height: 70px;
+letter-spacing: -4%;
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+ background-clip: text;
+  color: transparent;
+
+}
+.Text{
+    width: 500px;
+   
+    padding-top: 15px;
+    font-family: 'Manrope',sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #81AFDD;
+    line-height: 1.2;
+
+
+
+}
+.form{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.form input{
+ width: 400px;
+height: 60px;
+opacity: 1;
+
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+
+background-color: #052D56;
+ font-family: 'Manrope';
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color:  #3D6184;
+border: none;
+padding-left: 25px;
+
+}
+.form input::placeholder{
+    color:  #3D6184;
+    
+
+}
+.form input:focus{
+    outline: none;
+}
+
+ .form .ButtonHeroSection{
+    width: 174px;
+height: 60px;
+opacity: 1;
+
+border-top-right-radius: 5px;
+ border-bottom-right-radius: 5px; 
+background-color: #FF4820;
+border: 1px solid #FF4820;
+font-family: 'Manrope';
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+cursor: pointer;
+transition: 0.3s ease-in-out;
+} 
+.form button:hover{
+    background-color: #ff492046;
+    border: 1px solid #ff492046;
+
+}
+
+img{
+    width:550px;
+   height:480px;
+   object-fit: contain;
+   padding-right: 35px;
+opacity: 1;
+background-color: transparent;
+
+}
+    
+.RecentlyAccess{
+    padding-top: 20px;  
+    display: flex;
+    flex-direction: row;
+  
+   
+  
+}
+.RecentlyAccess img{
+
+width: 180px;
+height: 38px;
+opacity: 1;
+
+
+}
+.RecentlyAccess p{
+    padding-right: 10px;
+  color: white;
+  font-family: 'Manrope';
+font-weight: 500;
+font-size: 12px;
+
+line-height: 37.61px;
+letter-spacing: 0%;
+
+}
+.Application{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 90px;}
+.Application img{
+    width: 112.4px;
+height: 24px;
+opacity: 1;
+
+
+}
+
+@media screen and (max-width:900px){
+    .Container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 20px;
+    } 
+    
+    .paragraphs{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .BigTitle{
+        font-family: 'Manrope',sans-serif;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: -4%;
+        background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+    
+    .Text{
+        width: 100%;
+        max-width: 500px;
+        padding-top: 15px;
+        font-family: 'Manrope',sans-serif;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #81AFDD;
+        line-height: 1.2;
+        text-align: center;
+    }
+    
+    .form{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 400px;
+        gap: 15px;
+    }
+    
+    .form input{
+        width: 100%;
+        height: 60px;
+        border-radius: 5px;
+        background-color: #052D56;
+        font-family: 'Manrope';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #3D6184;
+        border: none;
+        padding-left: 25px;
+    }
+    
+    .form .ButtonHeroSection{
+        width: 100%;
+        height: 60px;
+        border-radius: 5px; 
+        background-color: #FF4820;
+        border: 1px solid #FF4820;
+        font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    } 
+    
+    img{
+        width: 100%;
+        max-width: 450px;
+        height: auto;
+        padding-right: 0;
+        opacity: 1;
+        background-color: transparent;
+    }
+        
+    .RecentlyAccess{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .RecentlyAccess img{
+        width: 160px;
+        height: 34px;
+        opacity: 1;
+    }
+    
+    .RecentlyAccess p{
+        padding-right: 0;
+        color: white;
+        font-family: 'Manrope';
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 1.4;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    
+    .Application{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .Application img{
+        width: 100px;
+        height: 21px;
+        opacity: 1;
+    }
+}

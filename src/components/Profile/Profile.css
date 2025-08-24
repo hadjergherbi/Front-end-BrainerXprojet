@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.ProfileContainer{
+ background-color: #042C54;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  width: 700px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  border-radius: 3px;
+  padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ProfileTitle{
+display: flex;
+justify-content: center;  
+padding-bottom: 40px;
+font-family: 'Manrope';
+font-weight: 900;
+font-size: 47px;
+line-height: 45px;
+letter-spacing: 0%;
+
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+ background-clip: text;
+  color: transparent;
+}
+
+.ContainerInformation{
+    display: flex;
+    flex-direction: column;
+    gap:7px
+}
+
+.Informationprofile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Informationprofile p{
+    color:  #358be0;
+    font-size: 14px;
+
+}
+.Informationprofile input{
+width: 300px;
+height: 35px;
+opacity: 1;
+padding-left: 15px;
+padding-right: 5px;
+border-radius: 5px;
+background-color: #225c96c3;
+ font-family: 'Manrope';
+font-weight: 400;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+color:  #358be0;
+border: none;
+}
+
+.Informationprofile input::placeholder{
+    color:#358be0
+}
+
+.ProfileContainer p{
+    font-family: Manrope;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0%;
+color: #81AFDD;
+}
+
+#buttonsprofil{
+    padding-top: 40px;
+    padding-left:60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ButtonsPRofile {
+  width: 152px;
+    height: 50px;
+     background-color: #FF4820;
+    border: 1px solid #FF4820;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Manrope';
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 100%;
+  letter-spacing: 0%;
+  cursor: pointer;
+}
+
+/* Popup Overlay - covers entire screen */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Popup Container */
+.pop {
+    position: relative;
+    background-color: #042C54;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    width: 600px;
+    height: auto;
+    max-height: 80vh;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+/* Close Button (X) */
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #FF4820;
+    cursor: pointer;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+}
+
+.close-button:hover {
+    background-color: rgba(255, 72, 32, 0.1);
+}
+@media screen and (max-width:600px){
+    .ProfileContainer{
+ background-color: #042C54;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  width: fit-content;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  border-radius: 3px;
+  padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#ProfileTitle{
+display: flex;
+justify-content: center;  
+padding: 20px;
+font-family: 'Manrope';
+font-weight: 900;
+font-size: 40px;
+line-height: 45px;
+letter-spacing: 0%;
+
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+ background-clip: text;
+  color: transparent;
+}
+}

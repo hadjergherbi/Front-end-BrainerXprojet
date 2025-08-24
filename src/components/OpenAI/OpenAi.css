@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.PrimarySection{
+padding-top:100px; 
+margin-left:170px;
+margin-right: 170px;   
+width: 1000px;
+height: 607px;
+opacity: 1;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+img{
+ width: 546px;
+height: 500px;
+opacity: 1;
+
+}
+.ContentAI{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.TextAi1{
+width: 275px;
+height: 30px;
+opacity: 1;
+font-family: 'Manrope';
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0%;
+color: #71E5FF;
+
+
+
+
+}
+.TitleAI{
+width: 426px;
+height: 90px;
+opacity: 1;
+font-family: 'Manrope';
+font-weight: 800;
+font-size: 34px;
+line-height: 45px;
+letter-spacing: 0%;
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+ background-clip: text;
+  color: transparent;
+
+
+}
+.TextAi2{
+width: 479px;
+height: 120px;
+opacity: 1;
+font-family: 'Manrope';
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0%;
+color: #81AFDD;
+
+
+}
+.TextAI3{
+    width: 275px;
+height: 30px;
+top: 2959px;
+left: 742px;
+opacity: 1;
+font-family:'Manrope';
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0%;
+color: #FF8A71;
+
+
+}
+.ContainerReg{
+ width: 1080px;
+height: 150px;
+margin-top:40px;
+margin-left: auto;
+margin-right: auto;
+padding-right: 20px;
+padding-left: 20px;
+opacity: 1;
+border-width: 1px;
+border-radius: 10.72px;
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+
+}
+.ContentContainerReg{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ 
+}
+.regContent{
+    width: 319px;
+height: 20px;
+opacity: 1;
+font-family: 'Manrope';
+font-weight: 500;
+font-size: 12px;
+line-height: 30px;
+letter-spacing: 0%;
+color:  #0E0E0E;
+;
+
+
+}
+.RegBold{
+width: 802px;
+height: 70px;
+opacity: 1;
+font-family:'Manrope' ;
+font-weight: 800;
+font-size: 24px;
+line-height: 45px;
+letter-spacing: 0%;
+
+
+
+}
+.GetStartedButton{
+width: 189px;
+height: 59px;
+opacity: 1;
+border-radius: 40px;
+background-color: black;
+border: 1px solid black;
+font-family: 'Manrope';
+font-weight: 700;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0%;
+color: white;
+cursor:pointer;
+
+
+}
+button:hover{
+    background-color: #0e0e0e84;
+    border: 1px solid #0e0e0e84;
+}
+
+@media screen and (max-width:900px){
+  .PrimarySection{
+    width: 95%;
+    height: auto;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    opacity: 1;
+  }
+  
+  .ContentAI{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+  
+  .TextAi1{
+    width: auto;
+    height: auto;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #71E5FF;
+  }
+  
+  .TitleAI{
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .TextAi2{
+    width: 100%;
+    height: auto;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #81AFDD;
+  }
+  
+  .TextAI3{
+    width: auto;
+    height: auto;
+    font-family:'Manrope';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #FF8A71;
+  }
+  
+  .ContainerReg{
+    width: 95%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 15px;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10.72px;
+  }
+  
+  .ContentContainerReg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+  
+  .regContent{
+    width: auto;
+    height: auto;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 24px;
+    color: #0E0E0E;
+  }
+  
+  .RegBold{
+    width: 100%;
+    height: auto;
+    font-family:'Manrope';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #0E0E0E;
+  }
+  
+  .GetStartedButton{
+    width: 160px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: black;
+    border: 1px solid black;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: white;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.FooterReq{
+/* width: 218px;
+height: 65px; */
+margin-bottom: 120px;
+opacity: 1;
+padding-top: 16px;
+padding-bottom: 16px;
+width: 190px;
+border:1px solid white;
+font-family:'Manrope';
+font-weight: 400;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: white;
+
+
+
+}

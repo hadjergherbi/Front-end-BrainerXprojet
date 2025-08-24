@@ -1,0 +1,162 @@
+.Futur{
+    position: relative;
+    
+}
+.Blur2{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: -444px;
+    top: 180px;
+    background-color: #07325F;
+    filter: blur(282px);
+    z-index: -1;
+}
+.ContentFutur{
+    width: 1154px;
+height: 431px;
+opacity: 1;
+padding-top: 150px;
+padding-right: 60px;
+padding-left: 80px;
+display: flex;
+flex-direction: row;
+gap: 70px;
+
+}
+.TITLE{
+  width: 426px;
+  height: 200px;
+  font-family: 'Manrope';
+font-weight: 800;
+font-size: 34px;
+line-height: 45px;
+letter-spacing: 0%;
+
+background:
+linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+-webkit-background-clip: text;
+ background-clip: text;
+  color: transparent;
+
+}
+.textReq{
+    padding-top: 10px;
+    width: 280px;
+height: 30px;
+opacity: 1;
+font-family: 'Manrope';
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0%;
+color: rgba(255, 138, 113, 1);
+
+
+}
+.Details{
+    padding-top:10px;
+       width: 590px;
+    height: 428px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+ 
+   
+
+}
+.DetailsContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.DetailsTitle{
+    width: 182px;
+height: 48px;
+font-family: 'Manrope';
+font-weight: 800;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: -4%;
+color: white;
+position: relative;
+
+}
+.DetailsTitle::before{
+ content: "";
+  position: absolute;
+  top:-5px;
+  width: 38px; 
+  height: 3px; 
+background: linear-gradient(90deg, #AE67FA, #F49867);
+}
+.DetailsText{
+    width: 334px;
+height: 92px;
+font-family: 'Manrope';
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+color: rgba(129, 175, 221, 1);
+
+}
+@media screen and (max-width:900px){
+    .ContentFutur{
+width: 100%;
+height: 100%;
+opacity: 1;
+margin-top: 10%;
+margin-bottom: 100%;
+padding-right: 300px;
+padding-left: 80px;
+display: flex;
+flex-direction: column;
+gap: 70px;
+
+}
+.Details{
+   
+       width: 100%;
+    height: 100%;
+     padding-top:10px;
+     padding-right: 40%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+ gap: 10px;
+   
+
+}
+.DetailsContent{
+
+    margin-right: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.DetailsTitle{
+    width: 35%;
+font-family: 'Manrope';
+font-weight: 800;
+font-size: 15px;
+line-height: 24px;
+letter-spacing: -4%;
+color: white;
+position: relative;
+
+}
+.DetailsText{
+    width: 75%;
+height: 100px;
+font-family: 'Manrope';
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+color: rgba(129, 175, 221, 1);
+
+}
+}

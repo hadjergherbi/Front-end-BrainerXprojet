@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.FooterTitle{
+width: 810px;
+height: 150px;
+opacity: 1;
+
+font-family: 'Manrope';
+font-weight: 800;
+font-size: 50px;
+line-height: 60px;
+letter-spacing: -4%;
+text-align: center;
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+ background-clip: text;
+  color: transparent;
+
+
+}
+@media screen and (max-width:900px){
+  .FooterTitle{
+width: 600px;
+height: 300px;
+opacity: 1;
+
+font-family: 'Manrope';
+font-weight: 800;
+font-size: 50px;
+line-height: 60px;
+letter-spacing: -4%;
+text-align: center;
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+ background-clip: text;
+  color: transparent;
+
+
+}
+}
+@media screen and (max-width:600px){
+  .FooterTitle{
+width: 480px;
+height: 250px;
+opacity: 1;
+
+font-family: 'Manrope';
+font-weight: 800;
+font-size: 50px;
+line-height: 60px;
+letter-spacing: -4%;
+text-align: center;
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+ background-clip: text;
+  color: transparent;
+
+
+}
+}

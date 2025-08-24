@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    max-width: 100%;
+}
+
+.navbarContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.LogoImage img{
+    width: 62px;
+    height: 16px;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+.elements button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: 'Manrope';
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.elements button:hover{
+    color: #FF4820;
+}
+
+.elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.buttons button{
+    width: 152px;
+    height: 50px;
+    font-family:'Manrope',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.signinButton{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.signinButton:hover{
+    background-color:#FF4820;
+    border: 1px solid #FF4820;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.signupButton{
+    background-color: #FF4820;
+    border: 1px solid #FF4820;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signupButton:hover{
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.cursor-pointer{
+    display: none;
+}
+
+.Media {
+    display: none;
+}
+
+/* Desktop - hide mobile menu */
+@media screen and (min-width: 901px){
+    .cursor-pointer{
+        display: none;
+    }
+    .Media {
+        display: none;
+    }
+}
+
+/* Tablet responsive */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .navBar{
+        padding: 15px 20px;
+    }
+    
+    .LogoImage img{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .elements{
+        gap: 25px;
+    }
+    
+    .elements button{
+        font-size: 16px;
+    }
+    
+    .buttons button{
+        width: 130px;
+        height: 45px;
+        font-size: 16px;
+    }
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 900px) {
+    .navBar{
+        padding: 15px 20px;
+        position: relative;
+    }
+    
+    .LogoImage img{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .elements, .buttons{
+        display: none;
+    }
+    
+    .cursor-pointer{
+        display: flex;
+        align-items: center;
+        color: white;
+        cursor: pointer;
+        font-size: 24px;
+    }
+    
+    .Media {
+        background-color: #052D56;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        transform: translateX(-100%);
+        opacity: 0;
+        pointer-events: none;
+    }
+    
+    .Media.open {
+        transform: translateX(0);
+        opacity: 1;
+        pointer-events: auto;
+    }
+    
+    .close-icon {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: white;
+        cursor: pointer;
+        font-size: 28px;
+    }
+    
+    .Media button{
+        width: 200px;
+        height: 50px;
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-family: 'Manrope';
+        font-weight: 350;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .Media .signinButton{
+        background-color: transparent;
+        border: 1px solid transparent;
+        cursor: pointer;
+    }
+    
+    .Media .signinButton:hover{
+        background-color:#FF4820;
+        border: 1px solid #FF4820;
+        border-radius:5px;
+    }
+    
+    .Media .signupButton{
+        background-color: #FF4820;
+        border: 1px solid #FF4820;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .Media .signupButton:hover{
+        background-color: transparent;
+        border: 1px solid #FF4820;
+    }
+}
+
+/* Small mobile */
+@media screen and (max-width: 480px) {
+    .navBar{
+        padding: 10px 15px;
+    }
+    
+    .LogoImage img{
+        width: 50px;
+        height: 13px;
+    }
+    
+    .Media button{
+        width: 180px;
+        height: 45px;
+        font-size: 18px;
+    }
+    
+    .Media{
+        gap: 30px;
+    }
+}

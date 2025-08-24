@@ -1,0 +1,570 @@
+#SingUp{
+   
+ background-color: #042C54;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  width:700px;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  border-radius: 3px;
+  padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.CreateAccount{  
+ margin-left: auto;
+ margin-right: auto;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+font-family: 'Manrope';
+font-weight: 900;
+font-size: 47px;
+line-height: 45px;
+letter-spacing: 0%;
+
+
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+ background-clip: text;
+  color: transparent;
+
+    
+}
+.BlurBottom {
+  
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  bottom: -0px; /* go lower than container */
+  left: 80%; 
+  background: #1B78DE;
+
+  filter: blur(200px);
+  opacity: 1;
+  border-radius: 50%;
+  z-index: 0; /* keep behind content */
+}
+
+.text-already-have{
+    padding-top: 15px;
+    padding-left: 25px;
+    color: #7fb0e0;
+    font-weight: 500;
+}
+.textInputSignUp{
+     padding-top: 20px;
+     padding-bottom: 10px;
+    color: #81AFDD;
+    font-weight: 500;
+}
+#SignUpform{
+ margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.inputssignUp{
+    
+ width: 430px;
+height: 50px;
+opacity: 1;
+padding-left: 15px;
+padding-right: 5px;
+
+border-radius: 5px;
+
+background-color: #225c96c3;
+ font-family: 'Manrope';
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color:  #358be0;
+border: none;
+
+
+}
+.inputssignUp::placeholder{
+    color:  #358be0;
+    
+
+}
+.inputssignUp:focus{
+    outline: none;
+}
+
+#NameSignUp{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.inputsNamessignUp{
+     width: 200px;
+height: 50px;
+opacity: 1;
+padding-left: 15px;
+padding-right: 5px;
+
+border-radius: 5px;
+
+background-color: #225c96c3;
+ font-family: 'Manrope';
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color:  #358be0;
+border: none;
+
+}
+.inputsNamessignUp::placeholder{
+    color:  #358be0;
+    
+
+}
+.inputsNamessignUp:focus{
+    outline: none;
+}
+#erremail::placeholder{
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: red;
+  
+}
+#errFirstName::placeholder{
+    font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: red;
+  
+}
+#errLastName::placeholder{
+     font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: red;
+}
+#errpassemail::placeholder{
+ font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+    color: red;
+}
+label{
+    font-size: 14px;
+
+}
+
+
+a{
+    padding-left: 25px;
+    color: #81AFDD;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#buttonSignUp{
+    width: 450px;
+height: 55px;
+margin-top: 15px;
+opacity: 1;
+
+border-radius: 5px;
+background-color: #FF4820;
+border: 1px solid #FF4820;
+font-family: 'Manrope';
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+cursor: pointer;
+transition: 0.3s ease-in-out;
+} 
+#buttonSignUp:hover{
+    background-color: #ff492046;
+    border: 1px solid #ff492046;
+
+}
+
+@media screen and (max-width:768px){
+    #SingUp{
+   
+ background-color: #042C54;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  width: max-content;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  border-radius: 3px;
+  padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.CreateAccount{  
+ margin-left: auto;
+ margin-right: auto;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+font-family: 'Manrope';
+font-weight: 900;
+font-size: 47px;
+line-height: 45px;
+letter-spacing: 0%;
+
+
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+ background-clip: text;
+  color: transparent;
+
+    
+}
+.text-already-have{
+    padding-top: 15px;
+    padding-left: 25px;
+    color: #7fb0e0;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+.textInputSignUp{
+     padding-top: 20px;
+     padding-bottom: 10px;
+    color: #81AFDD;
+    font-weight: 500;
+}
+#SignUpform{
+ margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputssignUp{
+    margin-left: auto;
+    margin-right: auto;
+height: 45px;
+border-radius: 5px;
+
+background-color: #225c96c3;
+ font-family: 'Manrope';
+font-weight: 400;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+color:  #358be0;
+border: none;
+
+
+}
+.inputssignUp::placeholder{
+    color:  #358be0;
+    
+
+}
+.inputssignUp:focus{
+    outline: none;
+}
+
+#NameSignUp{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.inputsNamessignUp{
+     width: 200px;
+height: 50px;
+opacity: 1;
+padding-left: 15px;
+padding-right: 5px;
+
+border-radius: 5px;
+
+background-color: #225c96c3;
+ font-family: 'Manrope';
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color:  #358be0;
+border: none;
+
+}
+.inputsNamessignUp::placeholder{
+    color:  #358be0;
+    
+
+}
+.inputsNamessignUp:focus{
+    outline: none;
+}
+#erremail::placeholder{
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color: red;
+  
+}
+#errFirstName::placeholder{
+    font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color: red;
+  
+}
+#errLastName::placeholder{
+     font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color: red;
+}
+#errpassemail::placeholder{
+ font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+    color: red;
+}
+label{
+    font-size: 14px;
+
+}
+
+
+a{
+    padding-left: 25px;
+    color: #81AFDD;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#buttonSignUp{
+    width: 450px;
+height: 50px;
+margin-top: 15px;
+opacity: 1;
+
+border-radius: 5px;
+background-color: #FF4820;
+border: 1px solid #FF4820;
+font-family: 'Manrope';
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+cursor: pointer;
+transition: 0.3s ease-in-out;
+} 
+#buttonSignUp:hover{
+    background-color: #ff492046;
+    border: 1px solid #ff492046;
+
+}
+}
+@media screen and (max-width:500px){
+    #SingUp{
+   
+ background-color: #042C54;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  width: max-content;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  border-radius: 3px;
+  padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.CreateAccount{  
+ margin-left: auto;
+ margin-right: auto;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+
+font-family: 'Manrope';
+font-weight: 900;
+font-size: 40px;
+line-height: 45px;
+letter-spacing: 0%;
+
+
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+ background-clip: text;
+  color: transparent;
+
+    
+}
+.text-already-have{
+    padding-top: 15px;
+    padding-left: 25px;
+    color: #7fb0e0;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+.textInputSignUp{
+     padding-top: 20px;
+     padding-bottom: 10px;
+    color: #81AFDD;
+    font-weight: 500;
+}
+#SignUpform{
+ margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputssignUp{
+    margin-left: auto;
+    margin-right: auto;
+height: 45px;
+border-radius: 5px;
+
+background-color: #225c96c3;
+ font-family: 'Manrope';
+font-weight: 400;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+color:  #358be0;
+border: none;
+
+
+}
+.inputssignUp::placeholder{
+    color:  #358be0;
+    
+
+}
+.inputssignUp:focus{
+    outline: none;
+}
+
+#NameSignUp{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.inputsNamessignUp{
+     width: 200px;
+height: 50px;
+border-radius: 5px;
+
+background-color: #225c96c3;
+ font-family: 'Manrope';
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color:  #358be0;
+border: none;
+
+}
+.inputsNamessignUp::placeholder{
+    color:  #358be0;
+    
+
+}
+.inputsNamessignUp:focus{
+    outline: none;
+}
+#erremail::placeholder{
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color: red;
+  
+}
+#errFirstName::placeholder{
+    font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color: red;
+  
+}
+#errLastName::placeholder{
+     font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color: red;
+}
+#errpassemail::placeholder{
+ font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+    color: red;
+}
+label{
+    font-size: 14px;
+
+}
+
+
+a{
+    padding-left: 25px;
+    color: #81AFDD;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#buttonSignUp{
+    width: 450px;
+height: 50px;
+margin-top: 15px;
+opacity: 1;
+
+border-radius: 5px;
+background-color: #FF4820;
+border: 1px solid #FF4820;
+font-family: 'Manrope';
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+cursor: pointer;
+transition: 0.3s ease-in-out;
+} 
+#buttonSignUp:hover{
+    background-color: #ff492046;
+    border: 1px solid #ff492046;
+
+}
+}

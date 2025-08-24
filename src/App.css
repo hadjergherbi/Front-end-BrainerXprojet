@@ -1,0 +1,25 @@
+body{
+  background-color: #040C18;
+  position: relative;
+
+}
+.Blur {
+  position: absolute;
+  width: 850px;
+  height: 450px;
+  top: -305px;
+  left: -336px;
+
+  background: radial-gradient(
+    circle,
+    rgba(0, 123, 255, 0.6) 0%,
+    rgba(0, 123, 255, 0.3) 40%,
+    transparent 80%
+  );
+
+  filter: blur(200px); /* blurs the shape itself */
+  opacity: 0.8;
+
+  border-radius: 50%;
+  z-index: -1; /* behind the content */
+}
