@@ -11,6 +11,7 @@ import SingIn from './components/SingIn/SingIn.jsx';
 import SignUp from './components/SignUp/SignUp.jsx';
 import Profile from './components/Profile/Profile.jsx';
 
+
 const router = createBrowserRouter([
   {
     path: "/",
